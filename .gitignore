@@ -1,0 +1,7 @@
+target
+.settings
+.cache*
+.project
+.classpath
+.test*
+.empty*
