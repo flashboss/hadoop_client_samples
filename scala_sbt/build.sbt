@@ -7,7 +7,7 @@ version := "0.1"
 scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
-  "org.apache.hadoop" % "hadoop-client" % "2.5.1-mapr-1501" excludeAll(
+  "org.apache.hadoop" % "hadoop-client" % "2.7.1" excludeAll(
     ExclusionRule(organization = "com.sun.jdmk"),
     ExclusionRule(organization = "com.sun.jmx"),
     ExclusionRule(organization = "javax.jms")), 

@@ -56,7 +56,7 @@ libraryDependencies ++= Seq(
 "junit" % "junit" % "4.11" % "test",
 "org.apache.commons" % "commons-lang3" % "3.3.2",
 
-"org.apache.hadoop" % "hadoop-client" % "2.5.1-mapr-1501" excludeAll (excludeJackson, excludeNetty, excludeAsm),
+"org.apache.hadoop" % "hadoop-client" % "2.7.1" excludeAll (excludeJackson, excludeNetty, excludeAsm),
 "org.apache.hbase" % "hbase-client" % "0.98.7-mapr-1501-r1" excludeAll (excludeJackson, excludeNetty, excludeAsm, excludeServletApi, excludeMortbay),
 "org.json" % "json" % "20151123"
  
